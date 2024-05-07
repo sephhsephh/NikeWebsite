@@ -1,12 +1,12 @@
 {
   "name": "nike",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://sephhsephh.github.io/NikeWebsite",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build --base=./",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
